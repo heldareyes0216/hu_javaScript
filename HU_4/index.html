@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Productos</title>
+
+    <link rel="stylesheet" href="/HU_4/css/styles.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <header class="header">
+        <h1>Admin de Productos</h1>
+        <p>Gestión de inventario</p>
+    </header>
+
+    <section class="stats">
+
+        <div class="card">
+            <h3>Total productos</h3>
+            <p id="totalProductos">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Valor total</h3>
+            <p id="valorTotal">$0</p>
+        </div>
+
+        <div class="card">
+            <h3>Promedio</h3>
+            <p id="promedio">$0</p>
+        </div>
+
+    </section>
+
+    <section class="panel">
+
+        <form id="formProducto">
+
+            <input type="text" id="nombre" placeholder="Nombre del producto">
+            <input type="number" id="precio" placeholder="Precio">
+
+            <button type="submit">Agregar producto</button>
+
+        </form>
+
+        
+
+    </section>
+
+    <section class="panel">
+
+        <h2>Productos</h2>
+
+        <ul id="listaProductos"></ul>
+
+    </section>
+
+</div>
+
+<script src="/HU_4/js/app.js"></script>
+</body>
+</html>
